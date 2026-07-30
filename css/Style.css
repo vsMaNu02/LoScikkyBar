@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: rgb(148, 103, 56);
+}
+
+
+.logo {
+    height: 150px;
+}
+
+.navbar {
+    display: flex;
+    border-bottom: 2px solid rgba(111, 78, 42);
+}
+
+.nome-bar {
+    line-height: 150px;
+    font-size: 27px;
+    color: rgba(120, 185, 69);
+    opacity: 0.8;
+    font-family: signpainter, sans-serif;
+}
+
+.lista-navbar {
+    display: flex;
+    list-style-type: none;
+    line-height: 150px;
+    /* margin-left: 120px; */
+    margin: 0 120px;
+    gap: 80px;
+}
+
+.lista-navbar a {
+    text-decoration: none;
+    /* color: rgba(120, 185, 69); */
+    color: white;
+    font-family: "Kaushan Script";
+}
+
+a:hover {
+    border-bottom: 2px solid rgba(120, 185, 69, 0.4);
+}
+
+.login-button {
+    height: 35px;
+    width: 70px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: rgba(120, 185, 69);
+    margin: 57px 0 0 80px;
+}
+
+.titolone {
+    font-family: "Sekuya", system-ui;
+    width: 55%;
+    line-height: 60px;
+    font-size: 40px;
+    color: white;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.25);
+    /* border-radius: 8px; */
+    border-bottom-right-radius: 50px;
+    height: 180px;
+}
+
+.immagine-cappuccino {
+    height: 1000px;
+    width: 1000px;
+    float: right;
+    position: absolute;
+    top: 0px;
+    left: 670px;
+    pointer-events: none;
+}
+
+/* Parte Principale */
+
+main {
+    margin-top: 50px;
+}
+
+.contenuto-p {
+    font-size: 16px;
+    width: 45%;
+    text-align: justify;
+    margin: 40px 0;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .bottone-recensioni {
+    width: 300px;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 100px;
+    display: flex;
+    padding-left: 20px;
+    gap: 8px;
+    border: 1px solid rgb(75, 125, 36);
+    background-color: rgb(120, 185, 69);
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.25);
+
+} */
+
+.btn {
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    background: rgb(120, 185, 69);
+    padding: 15px 35px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(120, 185, 69, 0.3);
+
+}
+
+.btn:hover {
+    background: rgb(120, 185, 69);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(120, 185, 69, 0.4);
+}
+
+/* .btn:active {
+    transform: scale(0.96);
+} */
